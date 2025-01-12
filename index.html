@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لعبة الحروف</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>لعبة الحروف</h1>
+        <div class="user-controls">
+            <p id="my-id">معرفي: جاري التوليد...</p>
+            <input type="text" id="search-user" placeholder="ابحث عن صديق">
+            <button id="add-user">أضف صديق</button>
+        </div>
+    </header>
+    <main>
+        <section id="profile-section">
+            <h2>ملفي الشخصي</h2>
+            <img id="user-image" src="default-avatar.png" alt="الصورة الشخصية">
+            <input type="file" id="upload-image">
+            <input type="text" id="username" placeholder="اسمك">
+        </section>
+        <section id="game-section" class="hidden">
+            <h2>جولة اللعب</h2>
+            <div id="game-timer">الوقت: 5 دقائق</div>
+            <form id="answer-form">
+                <input type="text" id="name" placeholder="اسم" required>
+                <input type="text" id="boy" placeholder="ولد" required>
+                <input type="text" id="girl" placeholder="بنت" required>
+                <input type="text" id="object" placeholder="جماد" required>
+                <input type="text" id="animal" placeholder="حيوان" required>
+                <input type="text" id="plant" placeholder="نبات" required>
+                <button type="submit">إرسال الإجابات</button>
+            </form>
+            <button id="end-game">إنهاء الجولة</button>
+            <button id="microphone-btn">🎙️</button>
+        </section>
+    </main>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
