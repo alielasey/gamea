@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background: #6200ea;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.user-controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.user-controls input {
+    margin-right: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+button {
+    background: #03dac6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #028a85;
+}
+
+#profile-section {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+#profile-section img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+#friends-section, #invitations, #game-section {
+    margin: 2rem;
+    padding: 1rem;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
